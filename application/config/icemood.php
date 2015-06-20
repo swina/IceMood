@@ -1,10 +1,10 @@
 <?php
-$config["streaming"] = "http://stream.italianmood.net:8080";
+$config["streaming"] = "http://your_icecast_streaming_url:port";
 $config["streaming_json"] = "status-json.xsl";
 
 $config["sudo"] = "/usr/bin/sudo -u root";
 $config["mp3_url"] = "audio/mp3";
-$config["audio_path"] = FCPATH."audio/mp3/"; /*"/home/admin/audio/";*/
+$config["audio_path"] = FCPATH."audio/mp3/"; 
 $config["m3u_path"] = FCPATH."audio/playlists/";
 $config["playlist"] = "songlist.m3u";
 $config["mp3_path"] = FCPATH."audio/mp3/";
@@ -20,4 +20,4 @@ $config["icegen_cfg"] = "/root/icegenerator/autodj.cfg";
 $config["icegen_log"] = "/root/icegenerator/radio.log";
 
 //email settings
-$config["icemood_email"] = "swina.allen@gmail.com";
+$config["icemood_email"] = "your email";
