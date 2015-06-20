@@ -1,8 +1,5 @@
-var host = 'http://icecast.italianmood.net/';
-if (!location.origin){
-   location.origin = location.protocol + "//" + location.host;
-   host = location.origin;
- }  
+location.origin = location.protocol + "//" + location.host;
+var host = location.origin;
 var current_menu = $('.current_menu').val();
 $('#menu_' + current_menu).addClass ( 'active' );
 
