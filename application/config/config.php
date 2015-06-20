@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-$config['base_url'] = 'http://icecast.italianmood.net/';
+$config['base_url'] = 'http://your_domain/(subfolder)';
 
 /*
 |--------------------------------------------------------------------------
@@ -555,7 +555,7 @@ $config['id3_genre'] = array("Blues","ClassicRock","Country","Dance","Disco","Fu
 
 //LOGIN
 $config['admin'] = 'icemood';
-$config['admin_email'] = 'swina.allen@gmail.com';
+$config['admin_email'] = 'your email';
 $config['admin_pw'] = 'icemood';
 
 
