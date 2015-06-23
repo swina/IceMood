@@ -2,6 +2,8 @@
 
 <a href="http://icemood.moodgiver.com" target="_blank">http://icemood.moodgiver.com</a>
 
+<a href="http://icemooddemo.moodgiver.com" target="_blank"><strong>DEMO AVAILABLE</strong></a>
+
 IceMood Control Panel is an Icecast web control panel to manage Icecast streaming server (Linux installation).
 Developed using Codeigniter PHP framework and Bootstrap CSS framework it doesn’t require any database.
 
